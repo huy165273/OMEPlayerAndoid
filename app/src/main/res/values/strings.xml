@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OMEPlayer</string>
+
+    <!-- Labels -->
+    <string name="label_stream_type">Stream Type:</string>
+    <string name="hint_stream_url">Stream URL</string>
+
+    <!-- Stream Types -->
+    <string name="stream_type_webrtc">WebRTC</string>
+    <string name="stream_type_hls">HLS</string>
+    <string name="stream_type_dash">DASH</string>
+
+    <!-- Buttons -->
+    <string name="button_play">Play</string>
+    <string name="button_stop">Stop</string>
+
+    <!-- Status Messages -->
+    <string name="status_ready">Ready to play</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_error">Error: %s</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+
+    <!-- Stats -->
+    <string name="stats_idle">Stats: Idle</string>
+    <string name="stats_format">Codec: %1$s | Bitrate: %2$s | Resolution: %3$dx%4$d</string>
+
+    <!-- Default URLs -->
+    <string name="default_webrtc_url">ws://localhost:4333/app/stream</string>
+    <string name="default_hls_url">http://localhost:8080/app/stream/llhls.m3u8</string>
+    <string name="default_dash_url">http://localhost:8080/app/stream/manifest.mpd</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_url">Invalid URL format</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_playback_failed">Playback error</string>
+    <string name="error_permission_denied">Permission denied</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale">This app needs microphone and camera permissions for WebRTC streaming</string>
+</resources>
