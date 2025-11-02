@@ -190,6 +190,9 @@ class WebRTCClient(
                 override fun onRenegotiationNeeded() {}
                 override fun onIceCandidatesRemoved(candidates: Array<out IceCandidate>?) {}
                 override fun onAddTrack(receiver: RtpReceiver?, streams: Array<out MediaStream>?) {}
+                override fun onIceConnectionReceivingChange(receiving: Boolean) {
+                    Log.d(tag, "ICE Connection Receiving Change: $receiving")
+                }
             }
         )
     }

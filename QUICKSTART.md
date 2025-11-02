@@ -51,6 +51,8 @@ hoặc Shift+F10
 **Test với public stream:**
 ```
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+ws://localhost:4333/app/stream_opus
 ```
 
 #### Test WebRTC
