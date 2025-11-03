@@ -28,9 +28,9 @@
     <string name="stats_format">Codec: %1$s | Bitrate: %2$s | Resolution: %3$dx%4$d</string>
 
     <!-- Default URLs -->
-    <string name="default_webrtc_url">ws://localhost:4333/app/stream</string>
-    <string name="default_hls_url">http://localhost:8080/app/stream/llhls.m3u8</string>
-    <string name="default_dash_url">http://localhost:8080/app/stream/manifest.mpd</string>
+    <string name="default_webrtc_url">ws://192.168.1.243:4333/app/stream_opus</string>
+    <string name="default_hls_url">http://192.168.1.243:9080/app/stream/llhls.m3u8</string>
+    <string name="default_dash_url">http://192.168.1.243:9080/app/stream/manifest.mpd</string>
 
     <!-- Errors -->
     <string name="error_invalid_url">Invalid URL format</string>

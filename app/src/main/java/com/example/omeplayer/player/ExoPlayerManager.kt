@@ -99,6 +99,7 @@ class ExoPlayerManager(
             .setConnectTimeoutMs(10000)
             .setReadTimeoutMs(10000)
             .setAllowCrossProtocolRedirects(true)
+            .setUserAgent("OMEPlayer/1.0 (Android)")
 
         return HlsMediaSource.Factory(dataSourceFactory)
             .setAllowChunklessPreparation(true)
@@ -110,6 +111,7 @@ class ExoPlayerManager(
             .setConnectTimeoutMs(10000)
             .setReadTimeoutMs(10000)
             .setAllowCrossProtocolRedirects(true)
+            .setUserAgent("OMEPlayer/1.0 (Android)")
 
         return DashMediaSource.Factory(dataSourceFactory)
             .createMediaSource(MediaItem.fromUri(url))

@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./gradlew:*)"
+      "Bash(./gradlew:*)",
+      "Bash(dir:*)",
+      "Bash(curl:*)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
